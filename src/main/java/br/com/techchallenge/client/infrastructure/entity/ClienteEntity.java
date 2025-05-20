@@ -2,6 +2,8 @@ package br.com.techchallenge.client.infrastructure.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import java.util.UUID;
+
 
 @Entity
 @Table(name = "clientes")
@@ -13,7 +15,7 @@ public class ClienteEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    private UUID id;
 
     @Column(nullable = false)
     private String nome;
