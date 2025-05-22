@@ -1,6 +1,6 @@
 package br.com.techchallenge.client.application.controller;
 
-import br.com.techchallenge.client.core.domain.Cliente;
+import br.com.techchallenge.client.core.Cliente;
 import br.com.techchallenge.client.core.usecase.ClienteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

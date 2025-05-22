@@ -2,12 +2,13 @@ package br.com.techchallenge.client.infrastructure.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import java.util.UUID;
 
+import java.util.UUID;
 
 @Entity
 @Table(name = "clientes")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder

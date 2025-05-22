@@ -1,6 +1,6 @@
 package br.com.techchallenge.client.infrastructure.mapper;
 
-import br.com.techchallenge.client.core.domain.Cliente;
+import br.com.techchallenge.client.core.Cliente;
 import br.com.techchallenge.client.infrastructure.entity.ClienteEntity;
 
 import java.util.UUID;
